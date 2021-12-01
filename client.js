@@ -12,9 +12,11 @@ const connect = function () {
 
   conn.on("connect", () => {
     console.log('Successfully connected to game server');
-    conn.write('ALU: hey');
+    conn.write('Name: ALU');
   });
 
+
+  
   return conn;
 };
 
