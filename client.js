@@ -15,8 +15,6 @@ const connect = function () {
     conn.write('Name: ALU');
   });
 
-
-  
   return conn;
 };
 
